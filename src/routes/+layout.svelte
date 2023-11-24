@@ -1,6 +1,10 @@
 <script>
     import "../app.css";
     import logo from '$lib/assets/peterbbq-logo-web.svg'
+    import '@fontsource-variable/yanone-kaffeesatz';
+    import '@fontsource-variable/montserrat';
+
+
 
     let currentYear = new Date().getFullYear()
 
@@ -12,8 +16,8 @@
     ]
 </script>
   
-<header class="container mx-auto flex justify-between px-4 py-1 uppercase items-center">
-    <div class="logo"><img src={logo} alt="Logo" class="w-36"></div>
+<header class="container mx-auto flex justify-between px-4 py-1 uppercase items-center yanone">
+    <div class="logo"><a href="/"><img src={logo} alt="Logo" class="w-36"></a></div>
 
     <nav class="flex list-none gap-8 items-center text-2xl font-bold">
         {#each menuItems as menuItem}
