@@ -27,9 +27,9 @@
     <a class="text-2xl font-bold uppercase py-4 px-6 border-2 rounded-full leading-none" href={menuItems[3].url}>Contacteren</a>
 </header>
 
-<section class="bg-white py-8">
-    <slot />
-</section>
+
+<slot />
+
   
 
 

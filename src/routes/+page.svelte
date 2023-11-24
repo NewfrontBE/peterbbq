@@ -1,2 +1,3 @@
-<h1 class="font-bold">Welcome to SvelteKit</h1>
-<p class="montserrat">Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<section class="bg-[url('./src/lib/assets/img/barbecue-peter-bbq-homebg.jpg')] bg-cover py-12">
+jo
+</section>
