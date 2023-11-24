@@ -3,11 +3,11 @@
 @tailwind utilities;
 
 @layer base {
-    html {
-      font-family: 'Yanone Kaffeesatz', system-ui, sans-serif;
+    .yanone {
+      font-family: 'Yanone Kaffeesatz Variable', system-ui, sans-serif;
     }
     .montserrat {
-        font-family: 'Montserrat', sans-serif;
+        font-family: 'Montserrat Variable', sans-serif;
     }
     .pbred {
       color: #9d2323;
